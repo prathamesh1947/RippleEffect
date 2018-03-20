@@ -12,7 +12,12 @@
     <script src="jquery.ripples.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $('section').ripples();
+            $('section').ripples(
+                {
+                    dropRadius: 20,
+                    perturbance: 0.03,
+                    resolution: 256,
+                });
         })
     </script>
   
