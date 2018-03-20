@@ -1,0 +1,11 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+section
+{
+    background-image: url(https://images.pexels.com/photos/325676/pexels-photo-325676.jpeg);
+    width: 100%;
+    height: 100vh;
+}
